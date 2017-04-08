@@ -163,7 +163,10 @@ INSTANCE_TYPES = {
     'd2.xlarge': ['x86_64'],
     'd2.2xlarge': ['x86_64'],
     'd2.4xlarge': ['x86_64'],
-    'd2.8xlarge': ['x86_64']
+    'd2.8xlarge': ['x86_64'],
+    'p2.xlarge': ['x86_64'],
+    'p2.8xlarge': ['x86_64'],
+    'p2.16xlarge': ['x86_64']
 }
 
 T1_INSTANCE_TYPES = ['t1.micro']
@@ -174,7 +177,7 @@ SEC_GEN_TYPES = ['m3.medium', 'm3.large', 'm3.xlarge', 'm3.2xlarge']
 
 CLUSTER_COMPUTE_TYPES = ['cc1.4xlarge', 'cc2.8xlarge']
 
-CLUSTER_GPU_TYPES = ['g2.2xlarge', 'g2.8xlarge', 'cg1.4xlarge']
+CLUSTER_GPU_TYPES = ['g2.2xlarge', 'g2.8xlarge', 'cg1.4xlarge', 'p2.xlarge', 'p2.8xlarge','p2.16xlarge']
 
 CLUSTER_HIMEM_TYPES = ['cr1.8xlarge']
 
